@@ -34,14 +34,14 @@ def get_article_content(url):
         return ""
 
 def fetch_korean_news():
-    # 1. 국내 권위 있는 뉴스 소스 (번역 불필요)
+    # 1. 국내 권위 있는 뉴스 소스
     sources = {
-        "🤖 인공지능 (AI)": "http://www.aitimes.com/rss/allArticle.xml", # 국내 AI 전문지 1위
-        "🏛️ 정치": "https://www.yna.co.kr/rss/politics.xml", # 연합뉴스 (팩트 위주)
-        "🏥 사회": "https://www.yna.co.kr/rss/society.xml", # 연합뉴스
-        "🎓 교육": "http://www.hangyo.com/rss/allArticle.xml" # 한국교육신문 (교총)
+        "🤖 인공지능 (AI)": "http://www.aitimes.com/rss/allArticle.xml", 
+        "🏛️ 정치": "https://www.yna.co.kr/rss/politics.xml", 
+        "🏥 사회": "https://www.yna.co.kr/rss/society.xml",
+        # [수정됨] 한국교육신문 -> 연합뉴스 교육 섹션 (스크랩 안정성 확보)
+        "🎓 교육": "https://www.yna.co.kr/rss/society-education.xml" 
     }
-    
     now = datetime.datetime.now()
     today_str = now.strftime("%Y-%m-%d")
     today_kr = now.strftime("%Y년 %m월 %d일(%a)")
