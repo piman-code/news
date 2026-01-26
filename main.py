@@ -1,47 +1,64 @@
+import feedparser
+import datetime
+import os
+import re
+
 def fetch_news():
-    # 분야별로 신뢰도 높은 서로 다른 언론사 RSS를 지정합니다.
+    # 세계적 공신력을 가진 국내외 매체 RSS
     feeds = {
-        "인공지능(AI)": "http://www.aitimes.com/rss/allArticle.xml", # AI 전문지
-        "교육": "https://www.edunews.co.kr/rss/allArticle.xml",     # 교육 전문지
-        "정치/사회": "https://www.yna.co.kr/rss/news.xml"           # 연합뉴스 속보
+        "Global_AI_Tech": "https://www.technologyreview.com/feed/", # MIT 테크놀로지 리뷰
+        "Global_Economy": "https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml", # 뉴욕타임즈 경제
+        "Education_KR": "https://www.hangyo.com/rss/allArticle.xml", # 한국교육신문
+        "General_KR": "https://www.yna.co.kr/rss/news.xml" # 연합뉴스 종합
     }
     
-    today_str = datetime.datetime.now().strftime("%Y-%m-%d")
-    today_with_day = datetime.datetime.now().strftime("%Y-%m-%d(%a)")
+    now = datetime.datetime.now()
+    today_str = now.strftime("%Y-%m-%d")
+    today_with_day = now.strftime("%Y-%m-%d(%a)")
     
     content = f"""---
 date: {today_str}
 type: insight
-tags: [AI, 교육, 정치, 사회]
+tags: [AI, 교육, 글로벌, 경제]
+source: [MIT_Tech, NYT, 한교신문, 연합뉴스]
 ---
 
-# 📅 {today_with_day} 분야별 종합 뉴스 브리핑
+# 📅 {today_with_day} 글로벌 쿼리티 뉴스 브리핑
+
+공신력 있는 국내외 매체를 통해 수집된 최신 뉴스 요약입니다.
 
 """
-
-    brief_summary = ""
+    
+    first_title = ""
 
     for category, url in feeds.items():
-        feed = feedparser.parse(url)
-        # 피드 연결 실패 시 건너뛰기
-        if not feed.entries:
-            continue
+        try:
+            feed = feedparser.parse(url)
+            if not feed.entries: continue
             
-        content += f"## 📌 {category} 분야\n"
-        
-        for i, entry in enumerate(feed.entries[:3]):
-            # HTML 태그 제거
-            summary = re.sub('<[^<]+?>', '', entry.description) if 'description' in entry else "내용은 링크를 참조하세요."
-            # 요약 내용이 너무 길면 자르기
-            summary = summary.strip()[:150] + "..." if len(summary) > 150 else summary
-            
-            content += f"### {entry.title}\n"
-            content += f"- **핵심내용:** {summary}\n"
-            content += f"- [기사 원문 보기]({entry.link})\n\n"
-            
-            # 파일 제목용 요약 (첫 번째 분야의 첫 번째 기사 제목)
-            if not brief_summary:
-                brief_summary = re.sub(r'[\\/:*?"<>|]', '', entry.title)[:20]
+            content += f"## 📌 {category}\n"
+            for entry in feed.entries[:3]:
+                # 요약 내용 정제
+                summary = re.sub('<[^<]+?>', '', entry.description) if 'description' in entry else ""
+                summary = summary.strip()[:200]
+                
+                content += f"### {entry.title}\n"
+                content += f"- **요약:** {summary}...\n"
+                content += f"- [출처 원문 보기]({entry.link})\n\n"
+                
+                if not first_title:
+                    # 파일명용: 한글, 영문, 숫자만 허용
+                    first_title = re.sub(r'[^가-힣a-zA-Z0-9\s]', '', entry.title).strip()[:25]
+        except Exception as e:
+            print(f"Error fetching {category}: {e}")
 
-    filename = f"{today_str} {brief_summary}.md"
+    # 파일명 결정 (공백을 언더바로 교체)
+    safe_title = first_title.replace(" ", "_")
+    filename = f"{today_str}_{safe_title}.md"
     return filename, content
+
+if __name__ == "__main__":
+    filename, content = fetch_news()
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"Success: {filename} created.")
