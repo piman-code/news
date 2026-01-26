@@ -2,7 +2,8 @@ name: Daily Economy News Bot
 
 on:
   schedule:
-    - cron: '0 23 * * *' # 한국 시간 매일 오전 8시 (UTC 23:00)
+    - cron: '0 23 * * *' # 한국 다음 날 오전 8시
+    - cron: '0 8 * * *'  # 한국 오후 5시
   workflow_dispatch:
 
 jobs:
