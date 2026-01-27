@@ -111,10 +111,10 @@ def fetch_news():
     # Frontmatter 작성 (옵시디언용 메타데이터)
     frontmatter = f"""---
 date: {today_str}
-time: {time_str}
+time: "{time_str}"
 type: insight
-tags: [뉴스, {time_tag}, 자동화]
-created_at: {today_str} {time_str}
+tags: [뉴스, {time_tag}, AI, 경제, 교육]
+created_at: "{today_str} {time_str} +09:00"
 ---
 
 # 📅 {today_str} {time_tag} 브리핑: {headline_str}
