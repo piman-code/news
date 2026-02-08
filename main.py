@@ -2,6 +2,7 @@ import datetime
 import glob
 import math
 import html
+import json
 import os
 import re
 import ssl
@@ -37,6 +38,12 @@ FEED_MAX_RETRIES = int(os.getenv("FEED_MAX_RETRIES", "2"))
 HISTORY_WINDOW_FILES = int(os.getenv("HISTORY_WINDOW_FILES", "14"))
 DOMAIN_REPEAT_PENALTY = float(os.getenv("DOMAIN_REPEAT_PENALTY", "0.45"))
 DEBUG_FEED_ERRORS = os.getenv("DEBUG_FEED_ERRORS", "0") == "1"
+TRANSLATE_FOREIGN_TO_KO = os.getenv("TRANSLATE_FOREIGN_TO_KO", "1") == "1"
+TRANSLATION_PROVIDER = os.getenv("TRANSLATION_PROVIDER", "auto").lower()
+TRANSLATE_TIMEOUT_SECONDS = int(os.getenv("TRANSLATE_TIMEOUT_SECONDS", "10"))
+SHOW_ORIGINAL_TEXT = os.getenv("SHOW_ORIGINAL_TEXT", "1") == "1"
+PAPAGO_CLIENT_ID = os.getenv("PAPAGO_CLIENT_ID", "")
+PAPAGO_CLIENT_SECRET = os.getenv("PAPAGO_CLIENT_SECRET", "")
 
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -97,6 +104,8 @@ TRACKING_QUERY_PARAMS = {
     "ref",
     "ref_src",
 }
+
+TRANSLATION_CACHE: Dict[str, str] = {}
 
 
 @dataclass(frozen=True)
@@ -179,6 +188,145 @@ def get_ssl_context():
     if certifi:
         return ssl.create_default_context(cafile=certifi.where())
     return ssl.create_default_context()
+
+
+def contains_korean(text: str) -> bool:
+    return bool(re.search(r"[가-힣]", text))
+
+
+def is_translation_candidate(text: str) -> bool:
+    if not text or not TRANSLATE_FOREIGN_TO_KO:
+        return False
+    if contains_korean(text):
+        return False
+    return bool(re.search(r"[A-Za-z]", text))
+
+
+def call_papago_translate(text: str) -> Optional[str]:
+    if not PAPAGO_CLIENT_ID or not PAPAGO_CLIENT_SECRET:
+        return None
+
+    payload = urlencode(
+        {
+            "source": "en",
+            "target": "ko",
+            "text": text,
+        }
+    ).encode("utf-8")
+
+    request = urllib.request.Request(
+        "https://openapi.naver.com/v1/papago/n2mt",
+        data=payload,
+        headers={
+            "X-Naver-Client-Id": PAPAGO_CLIENT_ID,
+            "X-Naver-Client-Secret": PAPAGO_CLIENT_SECRET,
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "User-Agent": USER_AGENT,
+        },
+    )
+
+    with urllib.request.urlopen(
+        request, timeout=TRANSLATE_TIMEOUT_SECONDS, context=get_ssl_context()
+    ) as response:
+        raw = response.read().decode("utf-8", errors="ignore")
+
+    parsed = json.loads(raw)
+    return (
+        parsed.get("message", {})
+        .get("result", {})
+        .get("translatedText", "")
+        .strip()
+        or None
+    )
+
+
+def call_public_google_translate(text: str) -> Optional[str]:
+    query = urlencode(
+        {
+            "client": "gtx",
+            "sl": "auto",
+            "tl": "ko",
+            "dt": "t",
+            "q": text,
+        }
+    )
+
+    url = "https://translate.googleapis.com/translate_a/single?{}".format(query)
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+
+    with urllib.request.urlopen(
+        request, timeout=TRANSLATE_TIMEOUT_SECONDS, context=get_ssl_context()
+    ) as response:
+        raw = response.read().decode("utf-8", errors="ignore")
+
+    parsed = json.loads(raw)
+    chunks = parsed[0] if isinstance(parsed, list) and parsed else []
+    translated = "".join(
+        item[0] for item in chunks if isinstance(item, list) and item and item[0]
+    ).strip()
+    return translated or None
+
+
+def translate_text_to_korean(text: str) -> str:
+    if not is_translation_candidate(text):
+        return text
+
+    cached = TRANSLATION_CACHE.get(text)
+    if cached:
+        return cached
+
+    translated = None
+
+    try:
+        if TRANSLATION_PROVIDER in ("papago", "auto"):
+            translated = call_papago_translate(text)
+    except Exception:
+        translated = None
+
+    if not translated:
+        try:
+            if TRANSLATION_PROVIDER in ("google", "auto"):
+                translated = call_public_google_translate(text)
+        except Exception:
+            translated = None
+
+    if not translated:
+        translated = text
+
+    TRANSLATION_CACHE[text] = translated
+    return translated
+
+
+def translate_title_for_output(title: str) -> str:
+    translated = translate_text_to_korean(title)
+    if translated != title and SHOW_ORIGINAL_TEXT:
+        return "{} ({})".format(translated, title)
+    return translated
+
+
+def translate_summary_to_korean(summary: str) -> str:
+    if not summary:
+        return summary
+
+    translated_lines: List[str] = []
+    for line in summary.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            translated_lines.append(line)
+            continue
+
+        is_quote = stripped.startswith(">")
+        body = stripped[1:].strip() if is_quote else stripped
+        translated_body = translate_text_to_korean(body)
+
+        if translated_body != body and SHOW_ORIGINAL_TEXT:
+            merged = "{} (원문: {})".format(translated_body, body)
+        else:
+            merged = translated_body
+
+        translated_lines.append("> " + merged if is_quote else merged)
+
+    return "\n".join(translated_lines)
 
 
 def fetch_feed_entries(feed_url: str):
@@ -607,8 +755,8 @@ def fetch_news():
         selected = select_diverse_articles(candidates, MAX_ITEMS_PER_CATEGORY)
 
         if selected:
-            headline = selected[0].title
-            headlines.append(headline[:15] + "..." if len(headline) > 15 else headline)
+            headline_base = translate_text_to_korean(selected[0].title)
+            headlines.append(headline_base[:15] + "..." if len(headline_base) > 15 else headline_base)
         else:
             news_content += "> ⚠️ 수집된 기사 없음\n\n"
             continue
@@ -620,8 +768,11 @@ def fetch_news():
             globally_seen.add(global_key)
 
             summary = get_clean_summary(article.link, article.summary_hint)
+            summary = translate_summary_to_korean(summary)
+
             domain_label = article.domain or "unknown"
-            news_content += "### 🔗 [{}]({})\n".format(article.title, article.link)
+            title_for_output = translate_title_for_output(article.title)
+            news_content += "### 🔗 [{}]({})\n".format(title_for_output, article.link)
             news_content += "> 출처: {} ({})\n".format(article.source_name, domain_label)
             news_content += summary + "\n\n"
 
