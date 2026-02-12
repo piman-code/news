@@ -1,11 +1,26 @@
 ---
-date: 2026-02-09
-time: "05:52:42"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-02-09 05:52:42"
-edition_cutoff_kst: "2026-02-09 17:00:00"
-selection_window_kst: "2026-02-09 00:00:00 ~ 2026-02-09 17:00:00"
+date created: 2026-02-09 05:52:42
+last_linked: 2026-02-11T12:25:09
+related:
+  - "[[100-Insight/110-News_briefing/2026-02-08_오후_09:55:58_Daily_News_Briefing]]"
+  - "[[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]"
+  - "[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]"
+  - "[[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]"
+  - "[[100-Insight/110-News_briefing/2026-02-06_오후_05:39:49_Daily_News_Briefing]]"
+tags:
+  - 뉴스
+  - 오후
+  - AI
+  - 경제
+  - 교육
+Topic: "[[Template]]"
+Index: "[[100-Insight/110-News_briefing]]"
+Tags:
+  - Obsidian
+  - Templater
+  - Ollama
+  - News
+  - Briefing
 ---
 
 # 📅 2026-02-09 오후 AI·경제·교육 브리핑: OpenAI의 '유출된' 슈... / 다카이치, 역사적인 선거 승...
@@ -62,3 +77,12 @@ selection_window_kst: "2026-02-09 00:00:00 ~ 2026-02-09 17:00:00"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-09 05:52:42
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-08_오후_09:55:58_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-06_오후_05:39:49_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

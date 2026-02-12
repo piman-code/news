@@ -1,11 +1,27 @@
 ---
-date: 2026-02-09
-time: "08:22:24"
-type: insight
-tags: [뉴스, 오전, 부동산, 주식, 암호화폐, 비트코인]
-created_at: "2026-02-09 08:22:24"
-edition_cutoff_kst: "2026-02-09 08:00:00"
-selection_window_kst: "2026-02-09 00:00:00 ~ 2026-02-09 08:00:00"
+date created: 2026-02-09 08:22:24
+last_linked: 2026-02-11T12:25:09
+related:
+  - "[[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_RealEstate_Stocks_Crypto_Daily_News_Briefing]]"
+  - "[[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_RealEstate_Stocks_Crypto_Daily_News_Briefing]]"
+  - "[[400-AI talk/430-Gemini talk/_비트코인 급락 이유 논의 .md]]"
+  - "[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]"
+  - "[[400-AI talk/430-Gemini talk/_주식 투자 방향 및 종목 추천 .md]]"
+tags:
+  - 뉴스
+  - 오전
+  - 부동산
+  - 주식
+  - 암호화폐
+  - 비트코인
+Topic: "[[Template]]"
+Index: "[[Productivity]]"
+Tags:
+  - Obsidian
+  - Templater
+  - Ollama
+  - Conversation
+  - Summary
 ---
 
 # 📅 2026-02-09 오전 부동산·주식·암호화폐 브리핑: 가장 급격한 주택 가격 하락... / 2026년에 매수할 주요 기... / 비트코인과 이더리움이 급락하...
@@ -102,3 +118,12 @@ selection_window_kst: "2026-02-09 00:00:00 ~ 2026-02-09 08:00:00"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-09 08:22:24
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_RealEstate_Stocks_Crypto_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_RealEstate_Stocks_Crypto_Daily_News_Briefing]]
+- [[400-AI talk/430-Gemini talk/_비트코인 급락 이유 논의 .md]]
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+- [[400-AI talk/430-Gemini talk/_주식 투자 방향 및 종목 추천 .md]]
+<!-- AI_RELATED_END -->

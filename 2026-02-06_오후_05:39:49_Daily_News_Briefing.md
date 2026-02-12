@@ -1,9 +1,18 @@
 ---
-date: 2026-02-06
-time: "05:39:49"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-02-06 05:39:49"
+date created: '2026-02-06 05:39:49'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_AI_Economy_Education_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-30_오전_08:18:50_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오후
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-06 오후 브리핑: 오픈AI, '챗GPT' 광고... / 새 '성장 공식' 갈아낀 K... / 충북대 입학설명회 성황…20...
@@ -63,3 +72,12 @@ created_at: "2026-02-06 05:39:49"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-06 05:39:49
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_AI_Economy_Education_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-30_오전_08:18:50_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

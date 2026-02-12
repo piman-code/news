@@ -1,9 +1,18 @@
 ---
-date: 2026-02-03
-time: "08:19:58"
-type: insight
-tags: [뉴스, 오전, AI, 경제, 교육]
-created_at: "2026-02-03 08:19:58"
+date created: '2026-02-03 08:19:58'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]'
+- '[[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]'
+- '[[100-Insight/110-News_briefing/2026-01-30_오후_05:37:36_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_AI_Economy_Education_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오전
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-03 오전 브리핑: [2월2일] AI 없이 역대... / [속보] 1월 소비자물가 2... / 전주교대, 지역 문화예술 육...
@@ -67,3 +76,12 @@ created_at: "2026-02-03 08:19:58"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-03 08:19:58
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+- [[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]
+- [[100-Insight/110-News_briefing/2026-01-30_오후_05:37:36_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_AI_Economy_Education_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

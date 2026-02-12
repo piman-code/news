@@ -1,11 +1,18 @@
 ---
-date: 2026-02-09
-time: "08:22:24"
-type: insight
-tags: [뉴스, 오전, AI, 경제, 교육]
-created_at: "2026-02-09 08:22:24"
-edition_cutoff_kst: "2026-02-09 08:00:00"
-selection_window_kst: "2026-02-09 00:00:00 ~ 2026-02-09 08:00:00"
+date created: '2026-02-09 08:22:24'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]'
+- '[[300-Study/2026-01-27 AI 뉴스 요약 및 브리핑]]'
+- '[[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_AI_Economy_Education_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-26_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오전
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-09 오전 AI·경제·교육 브리핑: 뉴욕은 AI 산업을 통제하기... / 지난해 노동시장은 나빴다. ...
@@ -82,3 +89,12 @@ selection_window_kst: "2026-02-09 00:00:00 ~ 2026-02-09 08:00:00"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-09 08:22:24
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]
+- [[300-Study/2026-01-27 AI 뉴스 요약 및 브리핑]]
+- [[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_AI_Economy_Education_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-26_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

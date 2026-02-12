@@ -1,9 +1,19 @@
 ---
-date: 2026-02-08
-time: "09:37:26"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-02-08 09:37:26"
+date created: '2026-02-08 09:37:26'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_09:29:03_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_09:48:11_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]'
+- '[[2026-02-11_12_20_54_AI와 교육·데이터 활용 전략]]'
+- '[[100-Insight/110-News_briefing/2026-01-26_Daily_News_Briefing]]'
+- '[[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]'
+tags:
+- 뉴스
+- 오후
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-08 오후 브리핑: Moltbook was pe... / Bob's Discount ... / 충북대 입학설명회 성황…20...
@@ -87,3 +97,12 @@ created_at: "2026-02-08 09:37:26"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-08 09:37:26
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-08_오후_09:29:03_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_09:48:11_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]
+- [[2026-02-11_12_20_54_AI와 교육·데이터 활용 전략]]
+- [[100-Insight/110-News_briefing/2026-01-26_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

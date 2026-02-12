@@ -1,9 +1,18 @@
 ---
-date: 2026-02-02
-time: "08:17:10"
-type: insight
-tags: [뉴스, 오전, AI, 경제, 교육]
-created_at: "2026-02-02 08:17:10"
+date created: '2026-02-02 08:17:10'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]'
+- '[[400-AI talk/430-Gemini talk/_클라우드 AI와 로컬 AI의 미래 전망 .md]]'
+- '[[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]'
+- '[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-28_오전_08:14:36_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오전
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-02 오전 브리핑: AI 에이전트만 활동하는 '... / 젠슨 황 "메모리 많이 부족... / [단독] 2026서울대 합격...
@@ -64,3 +73,12 @@ created_at: "2026-02-02 08:17:10"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-02 08:17:10
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]
+- [[400-AI talk/430-Gemini talk/_클라우드 AI와 로컬 AI의 미래 전망 .md]]
+- [[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-28_오전_08:14:36_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

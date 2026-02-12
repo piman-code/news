@@ -1,9 +1,18 @@
 ---
-date: 2026-02-05
-time: "05:41:43"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-02-05 05:41:43"
+date created: '2026-02-05 05:41:43'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-30_오전_08:18:50_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-03_오전_08:19:58_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-09_오전_08:22:24_AI_Economy_Education_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오후
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-05 오후 브리핑: ﻿클루닉스, AI 오케스트레... / 램리서치, 한국 내 부품조달... / [단독] 2026서울대 정시...
@@ -68,3 +77,12 @@ created_at: "2026-02-05 05:41:43"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-05 05:41:43
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-30_오전_08:18:50_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-03_오전_08:19:58_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-09_오전_08:22:24_AI_Economy_Education_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

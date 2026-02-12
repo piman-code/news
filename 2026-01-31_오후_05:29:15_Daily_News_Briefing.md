@@ -1,9 +1,18 @@
 ---
-date: 2026-01-31
-time: "05:29:15"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-01-31 05:29:15"
+date created: '2026-01-31 05:29:15'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-30_오후_05:37:36_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-28_오후_05:30:53_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오후
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-01-31 오후 브리핑: 구글 엔지니어, 중국 기업에... / 바람같은 말만 믿고 계약했다... / [단독] 2026서울대 합격...
@@ -71,3 +80,12 @@ created_at: "2026-01-31 05:29:15"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-01-31 05:29:15
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-30_오후_05:37:36_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-28_오후_05:30:53_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

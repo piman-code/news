@@ -1,9 +1,18 @@
 ---
-date: 2026-01-27
-time: "05:32:00"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-01-27 05:32:00"
+date created: '2026-01-27 05:32:00'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-02_오후_05:41:22_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-03_오전_08:19:58_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-07_오후_05:29:58_Daily_News_Briefing]]'
+- '[[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]'
+- '[[100-Insight/110-News_briefing/2026-02-04_오후_05:40:02_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오후
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-01-27 오후 브리핑: 202억 투입으로 전남 ‘섬... / 이의근 이사장, '행복경영'... / 광주여대 교수학습지원센터, ...
@@ -63,3 +72,12 @@ created_at: "2026-01-27 05:32:00"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-01-27 05:32:00
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-02_오후_05:41:22_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-03_오전_08:19:58_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-07_오후_05:29:58_Daily_News_Briefing]]
+- [[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]
+- [[100-Insight/110-News_briefing/2026-02-04_오후_05:40:02_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

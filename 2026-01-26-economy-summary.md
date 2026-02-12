@@ -1,6 +1,15 @@
 ---
-date: 2026-01-26
-tags: [경제, 뉴스, 자동화]
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/2025-12-23 외환위기-인사이트리포트-20251222]]'
+- '[[400-AI talk/430-Gemini talk/_주식 투자 방향 및 종목 추천 .md]]'
+- '[[100-Insight/110-News_briefing/2026-02-09_오전_08:22:24_RealEstate_Stocks_Crypto_Daily_News_Briefing]]'
+- '[[400-AI talk/430-Gemini talk/_비트코인 급락 이유 논의 .md]]'
+- '[[400-AI talk/430-Gemini talk/_해외 거래소 규제와 외화 유출 방지 .md]]'
+tags:
+- 경제
+- 뉴스
+- 자동화
 ---
 
 # 📅 2026-01-26 경제 뉴스 브리핑
@@ -45,3 +54,11 @@ tags: [경제, 뉴스, 자동화]
 - **요약:** 삼성카드가 20대 고객 카드 연회비를 면제해 주는 무료 멤버십 'THE TWENTY'를 출시했다고 26일 밝혔다. 이 멤버십에 가입한 20대 고객은 △삼성카드 taptapO △모니..
 - [기사 원문 보기](https://www.mk.co.kr/news/economy/11943633)
 
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/2025-12-23 외환위기-인사이트리포트-20251222]]
+- [[400-AI talk/430-Gemini talk/_주식 투자 방향 및 종목 추천 .md]]
+- [[100-Insight/110-News_briefing/2026-02-09_오전_08:22:24_RealEstate_Stocks_Crypto_Daily_News_Briefing]]
+- [[400-AI talk/430-Gemini talk/_비트코인 급락 이유 논의 .md]]
+- [[400-AI talk/430-Gemini talk/_해외 거래소 규제와 외화 유출 방지 .md]]
+<!-- AI_RELATED_END -->

@@ -1,11 +1,19 @@
 ---
-date: 2026-02-08
-time: "10:28:30"
-type: insight
-tags: [뉴스, 오후, 부동산, 주식, 암호화폐, 비트코인]
-created_at: "2026-02-08 10:28:30"
-edition_cutoff_kst: "2026-02-08 17:00:00"
-selection_window_kst: "2026-02-08 00:00:00 ~ 2026-02-08 17:00:00"
+date created: '2026-02-08 10:28:30'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-09_오전_08:22:24_RealEstate_Stocks_Crypto_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_RealEstate_Stocks_Crypto_Daily_News_Briefing]]'
+- '[[400-AI talk/430-Gemini talk/_비트코인 급락 이유 논의 .md]]'
+- '[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-07_오후_05:29:58_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오후
+- 부동산
+- 주식
+- 암호화폐
+- 비트코인
 ---
 
 # 📅 2026-02-08 오후 부동산·주식·암호화폐 브리핑: 주택 재고 및 새 목록은 겨... / UBS는 엡스타인이 체포된 ... / 비트코인이 2월 5일에 하락...
@@ -101,3 +109,12 @@ selection_window_kst: "2026-02-08 00:00:00 ~ 2026-02-08 17:00:00"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-08 10:28:30
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-09_오전_08:22:24_RealEstate_Stocks_Crypto_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_RealEstate_Stocks_Crypto_Daily_News_Briefing]]
+- [[400-AI talk/430-Gemini talk/_비트코인 급락 이유 논의 .md]]
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-07_오후_05:29:58_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

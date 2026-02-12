@@ -1,9 +1,18 @@
 ---
-date: 2026-02-05
-time: "08:19:02"
-type: insight
-tags: [뉴스, 오전, AI, 경제, 교육]
-created_at: "2026-02-05 08:19:02"
+date created: '2026-02-05 08:19:02'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_09:55:58_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-31_오후_05:29:15_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오전
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-05 오전 브리핑: [2월4일] '클로드 코워크... / 이재용 최태원 자존심 건 '... / [단독] [2026정시] 주...
@@ -64,3 +73,12 @@ created_at: "2026-02-05 08:19:02"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-05 08:19:02
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_09:55:58_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-31_오후_05:29:15_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

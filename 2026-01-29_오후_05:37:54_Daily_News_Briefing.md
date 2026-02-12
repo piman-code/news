@@ -1,9 +1,18 @@
 ---
-date: 2026-01-29
-time: "05:37:54"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-01-29 05:37:54"
+date created: '2026-01-29 05:37:54'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-01-30_오전_08:18:50_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-27_오전_09:17:13_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-06_오전_08:16:59_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-28_오전_08:14:36_Daily_News_Briefing]]'
+- '[[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]'
+tags:
+- 뉴스
+- 오후
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-01-29 오후 브리핑: "재생에너지, 충분히 늘고 ... / 천연가스 선물 급등에…자산운... / [단독] 2028대입 학생부...
@@ -70,3 +79,12 @@ created_at: "2026-01-29 05:37:54"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-01-29 05:37:54
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-01-30_오전_08:18:50_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-27_오전_09:17:13_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-06_오전_08:16:59_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-28_오전_08:14:36_Daily_News_Briefing]]
+- [[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]
+<!-- AI_RELATED_END -->

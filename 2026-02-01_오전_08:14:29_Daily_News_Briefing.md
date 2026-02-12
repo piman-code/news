@@ -1,9 +1,18 @@
 ---
-date: 2026-02-01
-time: "08:14:29"
-type: insight
-tags: [뉴스, 오전, AI, 경제, 교육]
-created_at: "2026-02-01 08:14:29"
+date created: '2026-02-01 08:14:29'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-31_오전_08:17:57_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-31_오후_05:29:15_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오전
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-01 오전 브리핑: 앤트로픽, ‘코워크’에 플러... / 쿠팡, 미국에 보낸 돈이…"... / [단독] 2026서울대 합격...
@@ -67,3 +76,12 @@ created_at: "2026-02-01 08:14:29"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-01 08:14:29
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-31_오전_08:17:57_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-31_오후_05:29:15_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

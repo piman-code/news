@@ -1,9 +1,18 @@
 ---
-date: 2026-01-29
-time: "08:19:27"
-type: insight
-tags: [뉴스, 오전, AI, 경제, 교육]
-created_at: "2026-01-29 08:19:27"
+date created: '2026-01-29 08:19:27'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-30_오전_08:18:50_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_09:48:11_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오전
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-01-29 오전 브리핑: [1월28일] 미 국방부 "... / '역대 최고실적' 삼성전자,... / [단독] [2025진학률] ...
@@ -62,3 +71,12 @@ created_at: "2026-01-29 08:19:27"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-01-29 08:19:27
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-30_오전_08:18:50_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_09:48:11_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

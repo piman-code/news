@@ -1,8 +1,17 @@
 ---
-date: 2026-01-26
-type: insight
-tags: [AI, 교육, 글로벌, 경제]
-source: [MIT_Tech, NYT, 한교신문, 연합뉴스]
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[300-Study/2026-01-27 AI 뉴스 요약 및 브리핑]]'
+- '[[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]'
+- '[[100-Insight/2025-12-30_“누워서 유튜브만 2시간째 보는 중”…도저히 못 멈추겠다,
+  이 정도일 줄은_deep]]'
+- '[[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-09_오전_08:22:24_AI_Economy_Education_Daily_News_Briefing]]'
+tags:
+- AI
+- 교육
+- 글로벌
+- 경제
 ---
 
 # 📅 2026-01-26(Mon) 글로벌 쿼리티 뉴스 브리핑
@@ -48,3 +57,11 @@ source: [MIT_Tech, NYT, 한교신문, 연합뉴스]
 - **요약:** (서울=연합뉴스) 김준태 최원정 홍준석 기자 = 경찰이 공천헌금 1억원 수수 의혹을 받는 무소속 강선우 의원에 대한 구속영장 신청을 검토하고 있......
 - [출처 원문 보기](https://www.yna.co.kr/view/AKR20260126080352004)
 
+<!-- AI_RELATED_START -->
+## AI Related
+- [[300-Study/2026-01-27 AI 뉴스 요약 및 브리핑]]
+- [[400-AI talk/430-Gemini talk/_AI 뉴스 요약 및 브리핑 .md]]
+- [[100-Insight/2025-12-30_“누워서 유튜브만 2시간째 보는 중”…도저히 못 멈추겠다, 이 정도일 줄은_deep]]
+- [[100-Insight/110-News_briefing/2026-02-02_오전_08:17:10_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-09_오전_08:22:24_AI_Economy_Education_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

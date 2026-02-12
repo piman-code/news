@@ -1,9 +1,18 @@
 ---
-date: 2026-02-07
-time: "05:29:58"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-02-07 05:29:58"
+date created: '2026-02-07 05:29:58'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-27_오전_09:17:13_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]'
+- '[[400-AI talk/430-Gemini talk/_비트코인 급락 이유 논의 .md]]'
+tags:
+- 뉴스
+- 오후
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-07 오후 브리핑: ﻿[AI 이슈트렌드] 김선호... / "62만원 대신 62만 비트... / [단독] [2026정시충원율...
@@ -71,3 +80,12 @@ created_at: "2026-02-07 05:29:58"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-07 05:29:58
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-27_오전_09:17:13_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]
+- [[400-AI talk/430-Gemini talk/_비트코인 급락 이유 논의 .md]]
+<!-- AI_RELATED_END -->

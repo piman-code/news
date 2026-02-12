@@ -1,9 +1,18 @@
 ---
-date: 2026-01-27
-time: "09:29:20"
-type: insight
-tags: [뉴스, 오전, AI, 경제, 교육]
-created_at: "2026-01-27 09:29:20 +09:00"
+date created: '2026-01-27 09:29:20 +09:00'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-01-27_오전_09:30:22_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-27_오전_09:17:13_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-28_오전_08:14:36_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-26_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오전
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-01-27 오전 브리핑: [1월26일] 급발전하는 음... / 홈플러스 달큰한 '진도 겨울... / [알고보자] 대입 수능이 가...
@@ -63,3 +72,12 @@ created_at: "2026-01-27 09:29:20 +09:00"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-01-27 09:29:20
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-01-27_오전_09:30:22_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-27_오전_09:17:13_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-28_오전_08:14:36_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-26_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

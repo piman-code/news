@@ -1,9 +1,18 @@
 ---
-date: 2026-02-04
-time: "05:40:02"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-02-04 05:40:02"
+date created: '2026-02-04 05:40:02'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-01-30_오후_05:37:36_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-28_오전_08:14:36_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_09:55:58_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-06_오전_08:16:59_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오후
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-04 오후 브리핑: ﻿포티투마루, 외국인 전용 ... / 현대차, 커넥티드카 타고 중... / [단독] [2026정시] 주...
@@ -66,3 +75,12 @@ created_at: "2026-02-04 05:40:02"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-04 05:40:02
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-01-30_오후_05:37:36_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-28_오전_08:14:36_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_09:55:58_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-06_오전_08:16:59_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

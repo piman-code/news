@@ -1,9 +1,18 @@
 ---
-date: 2026-01-30
-time: "05:37:36"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-01-30 05:37:36"
+date created: '2026-01-30 05:37:36'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-01-31_오후_05:29:15_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]'
+- '[[300-Study/2025-12-21 제미나이에 노트북LM이 들어옴]]'
+- '[[100-Insight/110-News_briefing/2026-01-28_오후_05:30:53_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-27_오전_09:17:13_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오후
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-01-30 오후 브리핑: 구글, 이동 중 음성으로 지... / 'LG TV' 7500억 적... / [단독] 2026서울대 합격...
@@ -62,3 +71,12 @@ created_at: "2026-01-30 05:37:36"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-01-30 05:37:36
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-01-31_오후_05:29:15_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오후_10:28:30_AI_Economy_Education_Daily_News_Briefing]]
+- [[300-Study/2025-12-21 제미나이에 노트북LM이 들어옴]]
+- [[100-Insight/110-News_briefing/2026-01-28_오후_05:30:53_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-27_오전_09:17:13_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

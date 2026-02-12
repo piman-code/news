@@ -1,9 +1,16 @@
 ---
-date: 2026-01-27
-time: 09:17:13
-type: insight
-tags: [뉴스, 오전, 자동화]
-created_at: 2026-01-27 09:17:13
+date created: '2026-01-27 09:17:13'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-01-27_오전_09:29:20_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-27_오전_09:30:22_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-28_오전_08:14:36_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-30_오전_08:18:50_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-01-26_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오전
+- 자동화
 ---
 
 # 📅 2026-01-27 오전 브리핑: [1월26일] 급발전하는 음... / “케데헌 '골든'일 줄 알았... / [알고보자] 대입 수능이 가...
@@ -62,3 +69,12 @@ created_at: 2026-01-27 09:17:13
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-01-27 09:17:13
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-01-27_오전_09:29:20_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-27_오전_09:30:22_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-28_오전_08:14:36_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-30_오전_08:18:50_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-01-26_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->

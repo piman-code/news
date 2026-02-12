@@ -1,11 +1,18 @@
 ---
-date: 2026-02-08
-time: "10:28:30"
-type: insight
-tags: [뉴스, 오후, AI, 경제, 교육]
-created_at: "2026-02-08 10:28:30"
-edition_cutoff_kst: "2026-02-08 17:00:00"
-selection_window_kst: "2026-02-08 00:00:00 ~ 2026-02-08 17:00:00"
+date created: '2026-02-08 10:28:30'
+last_linked: '2026-02-11T12:25:09'
+related:
+- '[[100-Insight/110-News_briefing/2026-02-08_오후_09:55:58_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-08_오전_08:21:15_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_AI_Economy_Education_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]'
+- '[[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]'
+tags:
+- 뉴스
+- 오후
+- AI
+- 경제
+- 교육
 ---
 
 # 📅 2026-02-08 오후 AI·경제·교육 브리핑: Super Bowl LX 광... / 영국은 어떻게 프라이드치킨의... / [단독][2026정시충원율]...
@@ -95,3 +102,12 @@ selection_window_kst: "2026-02-08 00:00:00 ~ 2026-02-08 17:00:00"
 
 ---
 ✅ **최종 업데이트(한국시간):** 2026-02-08 10:28:30
+
+<!-- AI_RELATED_START -->
+## AI Related
+- [[100-Insight/110-News_briefing/2026-02-08_오후_09:55:58_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-08_오전_08:21:15_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-09_오후_05:52:42_AI_Economy_Education_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-07_오전_08:17:31_Daily_News_Briefing]]
+- [[100-Insight/110-News_briefing/2026-02-05_오전_08:19:02_Daily_News_Briefing]]
+<!-- AI_RELATED_END -->
